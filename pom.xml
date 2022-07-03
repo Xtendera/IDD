@@ -40,7 +40,7 @@
                         </goals>
                         <configuration>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
-                            <outputFile>/home/ashray/Documents/Spigot1.18.2/plugins/IDD.jar</outputFile>
+                            <outputFile>./build/IDD.jar</outputFile>
                         </configuration>
                     </execution>
                 </executions>
