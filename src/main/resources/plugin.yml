@@ -1,6 +1,6 @@
 name: IDD
 version: '${project.version}'
 main: com.xtendera.IDD
-api-version: 1.18
+api-version: 1.19
 authors: [ AshrayShah ]
 description: SweetAnarchy's IDD Mule Dupe Plugin Implementation
