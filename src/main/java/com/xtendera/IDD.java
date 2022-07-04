@@ -12,6 +12,8 @@ public final class IDD extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         if (config.getInt("dupeMultiplier") > 1) {
+            config.options().copyDefaults(true);
+            saveConfig();
             new MuleDamageHandler(this);
             Bukkit.getLogger().info("Loaded IDD dupe plugin.");
         }
